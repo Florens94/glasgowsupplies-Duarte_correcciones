@@ -1,14 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          GLASGOW TATTOO SUPPLIES
+      <header className="navBar">
+        <p className="myApp"><a class="home" href="#">
+          GLASGOW TATTOO SUPPLIES</a>
         </p>
+        <nav>
+          <ul className="links">
+            <li className="seccion"><a href="#">Tintas</a></li>
+            <li className="seccion"><a href="#">Descartables</a></li>
+            <li className="seccion"><a href="#">Maquinas y fuentes</a></li>
+            <li className="seccion"><a href="#">Politica de compra</a></li>
+          </ul>
+        </nav>
       </header>
     </div>
   );
