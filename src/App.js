@@ -1,5 +1,7 @@
-
 import './App.css';
+import {NavBar} from './components/navbar/navbar'
+import {ItemListContainer} from './components/itemListContainer/itemListContainer'
+
 
 
 function App() {
@@ -9,17 +11,13 @@ function App() {
         <p className="myApp"><a class="home" href="#">
           GLASGOW TATTOO SUPPLIES</a>
         </p>
-        <nav>
-          <ul className="links">
-            <li className="seccion"><a href="#">Tintas</a></li>
-            <li className="seccion"><a href="#">Descartables</a></li>
-            <li className="seccion"><a href="#">Maquinas y fuentes</a></li>
-            <li className="seccion"><a href="#">Politica de compra</a></li>
-          </ul>
-        </nav>
+        <NavBar/>
+        <ItemListContainer/>
       </header>
+
     </div>
   );
 }
 
 export default App;
+

@@ -1,0 +1,5 @@
+.cart{
+    width: 3em;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
