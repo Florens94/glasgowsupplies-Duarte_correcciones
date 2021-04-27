@@ -12,7 +12,7 @@ function App() {
           GLASGOW TATTOO SUPPLIES</a>
         </p>
         <NavBar/>
-        <ItemListContainer/>
+
       </header>
 
     </div>

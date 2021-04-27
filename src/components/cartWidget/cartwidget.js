@@ -1,13 +1,14 @@
 import cart from '../img/cart.png'
 import './cartwidget.css'
-import {ItemListContainer} from '../itemListContainer/itemListContainer'
 
 
 
 export const CartWidget = () =>{
     return (
-
+        <div>
         <img className="cart" src={cart} alt="cart"/>
+        </div>
+        
 
 
     )
